@@ -51,7 +51,7 @@ const styles = StyleSheet.create({
     backgroundColor: '#fff'
   },
     addForm: {
-    paddingHorizontal: 15
+    paddingHorizontal: 14
   },
   todoList: 
   {
