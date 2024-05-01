@@ -10,13 +10,7 @@ export default function App() {
 
 
   const addTodo = (title)=> {
-    /*  setTodos(prevTodos)
-    const newTodo  = {
-           id: Date.now().toString(),
-           title: title
-
-            } */
-      //      
+     
       setTodos(prevTodos => {
        
         return [ 
@@ -39,9 +33,7 @@ export default function App() {
     
       <View style={styles.todoList}>
       { 
-      /*   todos.map(todo => {
-          return <Text key={todo.id.toString()}>{todo.title}</Text>
-        })*/
+     
        todos.map((todo) => {
         const {id, ...restTodo} =todo;
         return <Todo key={id} todo={restTodo} />
